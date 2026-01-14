@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Career Assessment – Step 1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      background: #dff5f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      background: #ffffff;
+      max-width: 720px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-top: 0;
+      text-align: center;
+    }
+
+    p {
+      color: #333;
+      margin-bottom: 12px;
+    }
+
+    .question {
+      margin-bottom: 22px;
+    }
+
+    label {
+      display: block;
+      margin-left: 8px;
+      color: #444;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background: #1f7aec;
+      color: white;
+      border: none;
+      padding: 14px 0;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    button:hover {
+      background: #155ec2;
+    }
+
+    button:disabled {
+      background: #aaa;
+      cursor: not-allowed;
+    }
+
+    #paypal-button-container {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+<h2>Career Assessment – Step 1</h2>
+<p>Please answer all questions honestly. More than one answer may be correct.</p>
+
+<form id="careerTest">
+
+<!-- 15 Questions -->
+<div class="question">
+<p>1. Which activities do you enjoy?</p>
+<label><input type="checkbox"> Solving problems</label>
+<label><input type="checkbox"> Helping people</label>
+<label><input type="checkbox"> Working with data or numbers</label>
+<label><input type="checkbox"> Creating or designing</label>
+</div>
+
+<div class="question">
+<p>2. How do you prefer to work?</p>
+<label><input type="checkbox"> Independently</label>
+<label><input type="checkbox"> In a team</label>
+<label><input type="checkbox"> With clear structure</label>
+<label><input type="checkbox"> With flexibility</label>
+</div>
+
+<div class="question">
+<p>3. What motivates you most?</p>
+<label><input type="checkbox"> Stability</label>
+<label><input type="checkbox"> Learning and growth</label>
+<label><input type="checkbox"> Meaningful work</label>
+<label><input type="checkbox"> Recognition</label>
+</div>
+
+<div class="question">
+<p>4. Which skills describe you best?</p>
+<label><input type="checkbox"> Communication</label>
+<label><input type="checkbox"> Analytical thinking</label>
+<label><input type="checkbox"> Creativity</label>
+<label><input type="checkbox"> Leadership</label>
+</div>
+
+<div class="question">
+<p>5. What type of environment do you prefer?</p>
+<label><input type="checkbox"> Office</label>
+<label><input type="checkbox"> Remote</label>
+<label><input type="checkbox"> Outdoor</label>
+<label><input type="checkbox"> Mixed</label>
+</div>
+
+<div class="question">
+<p>6. How do you handle responsibility?</p>
+<label><input type="checkbox"> I like accountability</label>
+<label><input type="checkbox"> I prefer guidance</label>
+<label><input type="checkbox"> I adapt quickly</label>
+<label><input type="checkbox"> I work best under pressure</label>
+</div>
+
+<div class="question">
+<p>7. What pace do you prefer?</p>
+<label><input type="checkbox"> Fast-paced</label>
+<label><input type="checkbox"> Balanced</label>
+<label><input type="checkbox"> Calm and steady</label>
+<label><input type="checkbox"> Project-based</label>
+</div>
+
+<div class="question">
+<p>8. How do you approach problems?</p>
+<label><input type="checkbox"> Logical analysis</label>
+<label><input type="checkbox"> Creative thinking</label>
+<label><input type="checkbox"> Collaboration</label>
+<label><input type="checkbox"> Trial and error</label>
+</div>
+
+<div class="question">
+<p>9. What matters most in a career?</p>
+<label><input type="checkbox"> Security</label>
+<label><input type="checkbox"> Purpose</label>
+<label><input type="checkbox"> Freedom</label>
+<label><input type="checkbox"> Growth opportunities</label>
+</div>
+
+<div class="question">
+<p>10. How do you handle feedback?</p>
+<label><input type="checkbox"> I value constructive feedback</label>
+<label><input type="checkbox"> I prefer positive reinforcement</label>
+<label><input type="checkbox"> I reflect and improve</label>
+<label><input type="checkbox"> I ask questions</label>
+</div>
+
+<div class="question">
+<p>11. What role do you take in groups?</p>
+<label><input type="checkbox"> Leader</label>
+<label><input type="checkbox"> Supporter</label>
+<label><input type="checkbox"> Planner</label>
+<label><input type="checkbox"> Executor</label>
+</div>
+
+<div class="question">
+<p>12. How do you manage time?</p>
+<label><input type="checkbox"> Structured schedules</label>
+<label><input type="checkbox"> Flexible planning</label>
+<label><input type="checkbox"> Deadline-focused</label>
+<label><input type="checkbox"> Adaptive</label>
+</div>
+
+<div class="question">
+<p>13. What interests you most?</p>
+<label><input type="checkbox"> Technology</label>
+<label><input type="checkbox"> People</label>
+<label><input type="checkbox"> Business</label>
+<label><input type="checkbox"> Creativity</label>
+</div>
+
+<div class="question">
+<p>14. How do you handle change?</p>
+<label><input type="checkbox"> I embrace it</label>
+<label><input type="checkbox"> I adapt gradually</label>
+<label><input type="checkbox"> I prefer stability</label>
+<label><input type="checkbox"> I analyze first</label>
+</div>
+
+<div class="question">
+<p>15. What best describes your work style?</p>
+<label><input type="checkbox"> Detail-oriented</label>
+<label><input type="checkbox"> Big-picture thinker</label>
+<label><input type="checkbox"> Action-oriented</label>
+<label><input type="checkbox"> Support-focused</label>
+</div>
+
+<p><strong>Email address</strong></p>
+<input type="email" id="user_email" placeholder="Enter your email" required>
+
+<p><strong>Next step:</strong><br>
+A membership is required to submit this assessment and continue to Step 2.  
+If you do not pass Step 1, your membership still gives you one free retake.</p>
+
+<!-- PAYPAL BUTTON -->
+<div id="paypal-button-container"></div>
+
+<script src="https://www.paypal.com/sdk/js?client-id=BAAQEkuekq5353s_SOHZEQZ_hwTQbG6CtDXCemgFTO25tRCgUjZ3T6Gl5kFrk1Zbth7aLBd-QW5FkvZB74&currency=USD"></script>
+
+<script>
+paypal.Buttons({
+    style: {
+        shape: 'rect',
+        color: 'blue',
+        layout: 'vertical',
+        label: 'subscribe'
+    },
+    createSubscription: function(data, actions) {
+        return actions.subscription.create({
+            'plan_id': 'P-XXXXXXXXXXXX' // REPLACE with your PayPal Plan ID
+        });
+    },
+    onApprove: function(data, actions) {
+        document.getElementById("submitTestBtn").disabled = false;
+        alert('Payment successful! You can now submit your test.');
+    }
+}).render('#paypal-button-container');
+</script>
+
+<!-- SUBMIT BUTTON -->
+<button type="button" id="submitTestBtn" onclick="sendTestSubmissionEmail()" disabled>
+  Submit Test & Continue
+</button>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+(function(){
+  emailjs.init("leZMuKDC_147eGXpK");
+})();
+
+function sendTestSubmissionEmail() {
+  const userEmail = document.getElementById("user_email").value;
+  if (!userEmail) {
+    alert("Please enter your email first.");
+    return;
+  }
+
+  emailjs.send(
+    "service_49axx7n",
+    "template_mpfr4sp",
+    { user_email: userEmail }
+  ).then(
+    function(response) {
+      alert("Test submitted successfully. You will be contacted after manual review.");
+    },
+    function(error) {
+      alert("Error sending submission. Try again.");
+      console.log(error);
+    }
+  );
+}
+</script>
+
+</div>
+</body>
+</html>
